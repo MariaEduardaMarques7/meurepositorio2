@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedeAgro - Início</title>
+    <!-- Fontes e Ícones -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="telainicial.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="header-left">
+                <!-- Usando a logo carregada -->
+                <img src="LOGO.png" alt="Logo" class="header-logo">
+                <div class="search-bar">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Pesquise por produto, serviço ou loja">
+                </div>
+            </div>
+
+            <div class="header-right">
+                <button class="location-btn">
+                    <i class="fa fa-map-marker-alt"></i> local <i class="fa fa-chevron-down"></i>
+                </button>
+                <nav class="nav-links">
+                    <a href="#">Categorias</a>
+                    <a href="#">Meus pedidos</a>
+                    <a href="#">Configurações</a>
+                </nav>
+                <div class="header-auth-btns">
+                    <button class="btn-outline">Cadastre-se</button>
+                    <a href="login.html" class="btn-solid">Fazer Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <!-- Produtos em Alta -->
+        <section>
+            <div class="section-title">
+                <h2>Itens em alta</h2>
+                <a href="#" class="view-all">Ver todos</a>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Card Produto 1 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="racaobovina.png" alt="Ração Bovina">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-location-tag">
+                            <i class="fa fa-map-marker-alt"></i> Loja Vet São Miguel <span class="price-tag">• R$ 85,00</span>
+                        </div>
+                        <h3 class="product-name">Ração Bovina</h3>
+                        <p class="product-meta">2.3km • R$ 85,00</p>
+                        <button class="btn-buy">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card Produto 2 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="adubonatural.png" alt="Adubo Natural">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-location-tag">
+                            <i class="fa fa-map-marker-alt"></i> Adubaria São Paulo <span class="price-tag">• R$ 120,00</span>
+                        </div>
+                        <h3 class="product-name">Adubo Natural</h3>
+                        <p class="product-meta">4.7km • R$ 120,00</p>
+                        <button class="btn-buy">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card Produto 3 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="racaobovina.png" alt="Ração Bovina">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-location-tag">
+                            <i class="fa fa-map-marker-alt"></i> Loja Vet São Miguel <span class="price-tag">• R$ 85,00</span>
+                        </div>
+                        <h3 class="product-name">Ração Bovina</h3>
+                        <p class="product-meta">2.3km • R$ 85,00</p>
+                        <button class="btn-buy">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card Produto 4 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="adubonatural.png" alt="Adubo Natural">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-location-tag">
+                            <i class="fa fa-map-marker-alt"></i> Adubaria São Paulo <span class="price-tag">• R$ 120,00</span>
+                        </div>
+                        <h3 class="product-name">Adubo Natural</h3>
+                        <p class="product-meta">4.7km • R$ 120,00</p>
+                        <button class="btn-buy">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card Produto 5 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="racaobovina.png" alt="Ração Bovina">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-location-tag">
+                            <i class="fa fa-map-marker-alt"></i> Loja Vet São Miguel <span class="price-tag">• R$ 85,00</span>
+                        </div>
+                        <h3 class="product-name">Ração Bovina</h3>
+                        <p class="product-meta">2.3km • R$ 85,00</p>
+                        <button class="btn-buy">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <!-- Serviços Próximos -->
+        <section>
+            <div class="section-title">
+                <h2>Serviços próximos</h2>
+                <a href="#" class="view-all">Ver todos</a>
+            </div>
+
+            <div class="services-grid">
+                
+                <!-- COLOQUE SUAS FOTOS NOS LINKS "src" ABAIXO -->
+
+                <!-- Serviço 1 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="lojavet.png" alt="Foto da Loja">
+                    </div>
+                    <div class="service-info">
+                        <h4>Loja Vet São Miguel</h4>
+                        <p class="service-meta">2.3km • 30 a 40 min • R$ 20,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 2 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Loja">
+                    </div>
+                    <div class="service-info">
+                        <h4>Loja Vet São Miguel</h4>
+                        <p class="service-meta">2.3km • 30 a 40 min • R$ 20,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 4 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 5 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="lojavet.png" alt="Foto da Loja">
+                    </div>
+                    <div class="service-info">
+                        <h4>Loja Vet São Miguel</h4>
+                        <p class="service-meta">2.3km • 30 a 40 min • R$ 20,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 6 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 7 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="lojavet.png" alt="Foto da Loja">
+                    </div>
+                    <div class="service-info">
+                        <h4>Loja Vet São Miguel</h4>
+                        <p class="service-meta">2.3km • 30 a 40 min • R$ 20,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 8 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                 <!-- Serviço 9 -->
+                 <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="lojavet.png" alt="Foto da Loja">
+                    </div>
+                    <div class="service-info">
+                        <h4>Loja Vet São Miguel</h4>
+                        <p class="service-meta">2.3km • 30 a 40 min • R$ 20,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 10 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 11 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="lojavet.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Serviço 12 -->
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="adubariasp.png" alt="Foto da Adubaria">
+                    </div>
+                    <div class="service-info">
+                        <h4>Adubaria São Paulo</h4>
+                        <p class="service-meta">4.7km • 50 a 60 min • R$ 30,00</p>
+                        <button class="btn-buy-small">
+                            <i class="fa fa-shopping-basket"></i> Compre agora
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo-area">
+                    <img src="Logo 1.png" alt="Logo" class="footer-logo">
+                    <p>PedeAgro! O jeito mais fácil de cuidar do seu negócio.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>PedeAgro</h4>
+                    <ul>
+                        <li>Quem somos</li>
+                        <li>Termos de uso</li>
+                        <li>Política de cancelamento</li>
+                        <li>Política de privacidade</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 style="visibility: hidden;">Links</h4>
+                    <ul>
+                        <li>Política de cookies</li>
+                        <li>Trabalhe Conosco</li>
+                        <li>Central de Ajuda</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Pague com</h4>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-pix"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="legal-info">
+                    PEDEAGRO LTDA | Av. Paulista, 7753 - Bela Vista, São Paulo - SP - CEP: 03030-030 | CNPJ: 52.525.252/0001-55
+                </div>
+                <div class="social-area">
+                    <span>Fique por dentro de tudo</span>
+                    <div class="social-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-tiktok"></i>
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
